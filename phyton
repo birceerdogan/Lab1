@@ -1,0 +1,25 @@
+
+# Task 1: Greeting and Student ID
+name = input("What is your name?\n")
+print(f"Hello {name}.")
+student_id = input("What is your Student ID?\n")
+print(f"Your ID is {student_id}.")
+print("task2")
+# Task 2: Basic Arithmetic Operations
+var1 = float(input("Enter first number: "))
+var2 = float(input("Enter second number: "))
+sum_result = var1 + var2
+diff_result = var1 - var2
+prod_result = var1 * var2
+print(f"var1: {var1}, var2: {var2}, sum: {sum_result}, difference: {diff_result}, product: {prod_result}")
+print("task3")
+# Task 3: Student's Final Score Calculation
+student_name = input("Enter student name: ")
+lab_grade = float(input("Enter Lab grade: "))
+midterm_grade = float(input("Enter Midterm grade: "))
+final_grade = float(input("Enter Final grade: "))
+last_score = (lab_grade * 0.25) + (midterm_grade * 0.35) + (final_grade * 0.40)
+print(f"Name: {student_name}\nLab: {lab_grade}\nMidterm: {midterm_grade}\nFinal: {final_grade}\nLast Score: {last_score}")
+print("task4")
+# Task 4: Printing Asterisk Pattern
+print("*\n**\n***\n**\n*")
